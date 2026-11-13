@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - NODE_ENV=production
+      - TOKEN_SECRET=production_bank_secret_2026_xyz
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+{
+  "name": "AI Bank Marketing - Customer Classification System",
+  "description": "Hệ thống ứng dụng thuật toán Decision Tree phân loại và dự đoán khách hàng đăng ký tiền gửi có kỳ hạn (Term Deposit) hỗ trợ tiếp thị ngân hàng số.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
